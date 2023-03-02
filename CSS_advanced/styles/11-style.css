@@ -49,9 +49,4 @@ a {
 }
 .section-tagline {
     color: var(--color-primary);
-    font-family: var(--font-family-title);
-    font-weight:var(--font-weight-bold) ;
-}
-.section-tagline-transform {
-    text-transform: uppercase;
 }
