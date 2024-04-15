@@ -1,0 +1,10 @@
+/* Create H* tags from 1 to 5 using @for
+h1 must have font size equal to 1px, h2 must have font size equal to 2px, etc
+*/
+
+@for $i from 1 through 5 {
+    h#{$i} {
+        font-size: #{$i}px;
+    }
+}
+
