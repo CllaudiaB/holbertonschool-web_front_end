@@ -6,6 +6,6 @@ $change_color: #00FF00;
 button {
     color: $color;
     :hover {
-        color: #00FF00;
+        color: $change_color;
     }
 }
