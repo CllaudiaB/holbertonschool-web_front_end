@@ -1,16 +1,15 @@
 /* Assign font size and text color to class */
 
-$class_succes_color: #00FF00;
-$class_waring_color: #FF0000;
-
-.info, .succes, .warning {
+.info {
     font-size: 12px;
 }
 
 .succes {
-    color: $class_succes_color;
+    color: #00FF00;
+    @extend .info;
 }
 
 .warning {
-    color: $class_waring_color;
+    color: #FF0000;
+    @extend .info;
 }
