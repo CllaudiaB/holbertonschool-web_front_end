@@ -1,0 +1,11 @@
+/* Assign color to the HTML tags and classes using nested declarations */
+
+$color: #3D3D3D;
+$class_color: #FF0000;
+
+body {
+    color: $color;
+    .red {
+        color: $class_color;
+    }
+}
