@@ -526,6 +526,7 @@
 /*** ARTICLE PAGE ***/
 /* Section HERO (article)
     ============================= */
+
     .hero-article {
         background-size: 150rem 100rem;
         background-position: 50% 0;
@@ -576,6 +577,7 @@
 
 /* Post Meta
     ============================= */
+
     .post-meta-list {
         flex-direction: column;
     }
@@ -600,6 +602,7 @@
 
 /* Tag list
     ============================= */
+
     .tag-lis {
         padding: 0;
         list-style: none;
