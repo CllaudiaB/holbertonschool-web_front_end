@@ -646,9 +646,10 @@
     content: "";
   }
 
-    /*** FORM ***/
-    /* Comment section
-      ============================= */
+  /*** FORM ***/
+
+  /* Comment section
+    ============================= */
 
   .post-comments {
     width: 80%;
@@ -661,8 +662,7 @@
   }
 
   /* Basic form
-      ============================= */
-
+    ============================= */
   form {
     display: flex;
     flex-direction: column;
@@ -727,20 +727,19 @@
 
   .form-group:focus-within {
     background-color: var(--color-light-grey);
-    transition: 3s;
+    transition: .3s;
   }
 
   /* Form field
     ============================= */
 
-  .from-field-container {
+  .form-field-container {
     position: relative;
   }
 
   .form-field-icon {
     font-style: normal;
   }
-
   /* Form help
     ============================= */
 
