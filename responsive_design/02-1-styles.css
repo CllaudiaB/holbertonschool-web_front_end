@@ -167,11 +167,6 @@
   
   /* Helpers
       ============================= */
-
-  main img {
-    width: 100%;
-    height: auto;
-  }
   
   .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
@@ -182,6 +177,11 @@
     white-space: nowrap;
   }
   
+  main img {
+    width: 100%;
+    height: auto;
+  }
+
   /*** 2. LAYOUT ***/
   
   /* Layout
